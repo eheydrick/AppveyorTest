@@ -9,4 +9,4 @@ install:
     echo %my_secret%
 build_script:
 - cmd: echo %my_secret%
-- ps : echo $env:my_secret
+- ps: echo $env:my_secret
