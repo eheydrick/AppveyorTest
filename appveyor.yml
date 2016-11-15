@@ -4,6 +4,8 @@ environment:
     secure: 6MbdOgGgWB7z51zqULQu/Q==
   url:
     secure: CRcE1/tP6VnExdn+at5KfPRHNWNU6G4/8cmotpaIJhI=
+before_build:
+- ps: echo $env:my_secret
 build_script:
 - ps: echo $env:my_secret
 - ps: wget $env:url -outfile "mypage"
