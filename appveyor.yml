@@ -1,7 +1,7 @@
 version: 1.0.{build}
 environment:
   my_secret:
-    secure: XLWJ/zc4uKQL9IEZ7OqVBRoc3VVcs3ohh/B5nqLIxTI=
+    secure: 6MbdOgGgWB7z51zqULQu/Q==
 install:
 - cmd: >-
     echo $env:my_secret
